@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1" />
+		<link rel="stylesheet" type="text/css" href="css/music.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	</head>
+	<body>
+		<audio  src="" id="audio" >当前浏览器不支持audio</audio>
+		<div class="index">
+			
+			<nav id="nav"  class="navbar navbar-expand-lg navbar-light" style="z-index: 11;  background-color: #31C27C;">
+			  <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" width="72%"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Features</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Pricing</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="#">Disabled</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+			<div class="box" id="box">
+				<div class="content">
+					<ul class="song-list" id="songList" style="margin-bottom: 0;">
+					</ul>
+				</div>
+				<div id="layerSong" class="layer-song">
+					<div class="songername" id="songername">
+						<span class="name1" id="name1">123</span>
+						<span class="name2" id="name2">456</span>
+						</div>
+						<div id="singerAvatar" class="singer-avatar"></div>
+						<div id="close" class="close">
+							<i class="a"></i>
+							<i class="b"></i>
+						</div>
+						<div class="gechi" id="gechi">
+							<p>1231321</p>	
+						</div>
+				</div>
+			</div>
+			<div class="bot" id="bot">
+					<div class="control">
+						<div class="time1" id="time1">00:00</div>
+						<div class="mid" style="background-color: #ddd;border-radius: 5px;">
+							<div class="mask" id="mask"></div>
+							<div id="activeProgress" class="active-progress" style="width:0;border-radius: 5px;height: 10px;background-image: linear-gradient(to right,#38da5a,#38da5a);"></div>
+							<div class="layer" id="layer"></div>
+							
+						</div>
+					    <div class="time2" id="time2">00:00</div>
+				</div>
+				<div class="left" id="left">
+					<div class="musicimg" id="musicimg">
+						<i class="msi" id="msi1"></i>
+						<i class="msi" id="msi2"></i>
+					</div>
+				</div>
+				<div class="go">
+						
+						<div class="left1">
+							<div class="prev" data-num="-1">
+								<i class="previ fa fa-backward" ></i>
+							</div>
+						</div>
+					<div class="get" id="get">
+						<i class="gett fa fa-play-circle-o" id="go" ></i>
+					</div>
+					<div class="left2">
+						<div class="prev" data-num="1">
+							<i class="previ fa fa-forward"></i>
+						</div>
+					</div>
+				</div>
+			<div class="right1">
+				<div class="ran"  id="ran"  data-mode="1"><i class="fa fa-random" style="color:#9EA2A5;font-size: 1.5rem;" id="suiji"></i></div>
+				<div class="ran2" id="ran2">
+					<div class="fl m"><i class="fa fa-refresh" style="font-size: 1.5rem;color:#9EA2A5;"></i></div>
+					<div class="fl m"><i class="fa fa-random" style="font-size: 1.5rem;color: #9EA2A5;"></i></div>
+					<div class="fl"><i class="fa fa-exchange" style="font-size: 1.5rem;color: #9EA2A5;"></i></div>
+				</div>
+			</div>
+				
+			</div>
+			
+		
+		<!-- Just an image -->
+
+	</body>
+	
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/music.js"></script>
+	<script type="text/javascript" src="js/music2.js"></script>
+	<script type="text/javascript" src="popper.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+
+	<!-- <script type="text/javascript" src="rem.js"></script> -->
+	
+</html>
